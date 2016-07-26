@@ -1,0 +1,26 @@
+{
+  "name": "solunar",
+  "version": "0.0.1",
+  "description": "Solunar Table Calculator for Fishing",
+  "main": "solunar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timonorawski/solunar.git"
+  },
+  "keywords": [
+    "solunar",
+    "fishing"
+  ],
+  "author": "Timon Orawski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timonorawski/solunar/issues"
+  },
+  "homepage": "https://github.com/timonorawski/solunar#readme",
+  "dependencies": {
+    "suncalc": "^1.7.0"
+  }
+}
