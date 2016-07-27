@@ -150,7 +150,6 @@ exports.getTimes = function(date, lat, lng) {
         "action": 0,
         "moon": {
             "phase": phase.string,
-            "phaseno": suncalc.getMoonIllumination(date).phase,
             "transits": getMoonTransitTimes(date, lat, lng).transits
         },
         "sun": suntimes
