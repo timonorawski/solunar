@@ -7,6 +7,7 @@ var suncalc = require('suncalc');
 var ANHOUROFMILLIS = 60*60*1000;
 
 var getMoonTransitTimes = function(date, lat , lng) {
+    // TODO: this is brute force, didn't have time to find the right algorithm - implement properly
     var rc = {/*"debug": {}, "debug2": {},"debug3": {}, "debug4": {}, */"transits": []};
     var sign = 1, i, j;
     for (i = 0; i <= 25; i++) {
