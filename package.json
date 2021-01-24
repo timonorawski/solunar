@@ -1,6 +1,6 @@
 {
   "name": "solunar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Solunar Table Calculator for Fishing",
   "main": "solunar.js",
   "scripts": {
