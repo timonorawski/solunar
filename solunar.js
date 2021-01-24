@@ -23,7 +23,7 @@ var getMoonTransitTimes = function(date, lat , lng) {
         //rc.debug[date2] = moontimes;
         if (sign != Math.sign(moontimes.azimuth)) {
             //found the changeover hour
-            changeover = i;
+            var changeover = i;
             break;
         }
     }
@@ -43,7 +43,7 @@ var getMoonTransitTimes = function(date, lat , lng) {
         }
         if (sign != (moontimes.azimuth > 0)) {
             //found the changeover minute
-            changeover = j;
+            var changeover = j;
             rc.transits.push({'time': date3, 'overhead': (Math.sign(moontimes.altitude) > 0)});
             break;
         }
@@ -62,7 +62,7 @@ var getMoonTransitTimes = function(date, lat , lng) {
         //rc.debug3[date2] = moontimes;
         if (sign != Math.sign(moontimes.azimuth)) {
             //found the changeover hour
-            changeover = i;
+            var changeover = i;
             break;
         }
     }
@@ -83,7 +83,7 @@ var getMoonTransitTimes = function(date, lat , lng) {
             }
             if (sign != (moontimes.azimuth > 0)) {
                 //found the changeover minute
-                changeover = j;
+                var changeover = j;
                 rc.transits.push({'time': date3, 'overhead': (Math.sign(moontimes.altitude) > 0)});
                 break;
             }
